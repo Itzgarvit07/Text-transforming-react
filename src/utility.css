@@ -1,0 +1,27 @@
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+button{
+    padding: 6px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border: solid #fff;
+    font-size: 17px;
+}
+textarea{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding:10px;
+
+}
