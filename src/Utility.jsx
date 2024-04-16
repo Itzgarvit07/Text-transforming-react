@@ -50,7 +50,7 @@ function Utility() {
 
       <form action="">
         <textarea  className={fonts.length > 0 ? fonts.join(" ") : ""}
-        name="" id="" cols="55" rows="15" placeholder='write something here' value={text} onChange={submit}>{text}</textarea>
+        name="" id="" cols="40" rows="13" placeholder='write something here' value={text} onChange={submit}>{text}</textarea>
         <br />
         <button id='first' onClick={change}>Uppercase</button>
         <button id='second' onClick={change} >Lowercase</button>

@@ -1,3 +1,8 @@
+body{
+    background: #654ea3;  
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  
+background: linear-gradient(to right, #eaafc8, #654ea3);
+}
 .bold{
     font-weight: bold;
 }
@@ -12,16 +17,17 @@
 }
 button{
     padding: 6px 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 10px;
-    background-color: red;
+    background-color: palevioletred;
     color: #fff;
-    border: solid #fff;
+    border:2px solid #fff;
     font-size: 17px;
+
 }
 textarea{
     margin-left: 10px;
     border-radius: 10px;
     padding:10px;
-
+    font-size: 20px;
 }
